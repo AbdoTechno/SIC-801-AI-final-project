@@ -1,0 +1,17 @@
+# Sensitive datasets and generated artifacts
+data/raw/*
+data/processed/*
+data/external/*
+models/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+!models/.gitkeep
+
+# Local secrets and common generated files
+.env
+.env.*
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
